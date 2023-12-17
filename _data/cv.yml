@@ -2,96 +2,61 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Michael Jamal Akinyemi
     - name: Date of Birth
-      value: 14th March 1879
+      value: June 19th 2002
     - name: Languages
-      value: English, German
+      value: English
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Associate of Arts (A.A.)
+      institution: Tallahassee Community College
+      year: Jan 21' - Jul 22'
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Phi Theta Kappa Honors Society
+    - title: Biotechnology (B.S.) & Computer Science (B.S.)
+      institution: University of Central Florida
+      year: Aug 22' - Present
       description:
-        - Description 1.
-        - Description 2.
+        - Ronald E. McNair Scholar
+        - Minor in Genomics & Bioinformatics
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Scripting Team Leader
+      institution: AvatarMC
+      year: June 17' - June 22'
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - Developed QA test plans for new features/content.
+        - Wrote and maintained documentation of custom scripting language.
+        - Developed command-line & GUI-based automation tools to assist workflows of other teams.
+        - title: "Performed various management related tasks:"
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+            - Wrote design plans for deliverable request/feature improvement tasks.
+            - Led teams/projects using professional management software (Phabricator).
+            - Led project meetings and efficiently delegated tasks to team members.
+    - title: MIT Summer Research Intern
+      institution: Massachusetts Institute of Technology
+      year: Jun 23' - Present
       description:
-        - Description 1.
-        - Description 2.
+        - "Project: \"Generating a Stable Cell Line: Troubleshooting Restriction Cloning of a CRISPR Vector For Sequential Genome Insertion\""
+        - Received training in fundamental lab techniques (cell culture, flow cytometry.
+        - Refactored bioinformatics pipeline for analysis of B-Cell VH:VL data collected through NGS.
+        - Improved scientific communication skills and ability to present data/progress during lab meetings.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
 
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
+# - title: Academic Interests
+#   type: nested_list
+#   contents:
+#     - title: Topic 1.
+#       items: 
+#         - Description 1.
+#         - Description 2.
+#     - title: Topic 2.
+#       items:
+#         - Description 1.
+#         - Description 2.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
