@@ -2,3 +2,11 @@
 
 
 
+
+
+`docker compose up --build`
+
+
+
+
+

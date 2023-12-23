@@ -1,62 +1,276 @@
+
+# https://github.com/alshedivat/al-folio/pull/1339
+
+
+# Style Guidelines:
+# - Order from most recent -> oldest
+# - Try to keep time measurements/formats as consistent as possible
+#   - (Ex: Month vs Semester & "12/2022" vs "Dec 2022")
+
 - title: General Information
   type: map
   contents:
     - name: Full Name
       value: Michael Jamal Akinyemi
-    - name: Date of Birth
-      value: June 19th 2002
-    - name: Languages
-      value: English
+    - name: Email
+      value: makinyem@mit.edu
+    - name: Phone
+      value: (850)-553-1127
 
+# --== EDUCATION ==--
 - title: Education
   type: time_table
   contents:
-    - title: Associate of Arts (A.A.)
-      institution: Tallahassee Community College
-      year: Jan 21' - Jul 22'
-      description:
-        - Phi Theta Kappa Honors Society
-    - title: Biotechnology (B.S.) & Computer Science (B.S.)
+    - title: Biotechnology (B.S.) &<br>Computer Science (B.S.)
+      year: Aug 2022 - Present
+      location: Orlando, FL
       institution: University of Central Florida
-      year: Aug 22' - Present
       description:
         - Ronald E. McNair Scholar
         - Minor in Genomics & Bioinformatics
+        - title: "Relevant Coursework:"
+          contents:
+            - <i>Discrete Structures, Computer Science I</i>
+            - <i>Immunology, Biochemistry I, General Microbiology, Quantitative Biological Methods</i>
 
+    - title: Associate of Arts (A.A.)
+      year: Jan 2021 - Jul 2022
+      location: Tallahassee, FL
+      institution: Tallahassee Community College
+      description:
+        - Phi Theta Kappa Honors Society
+      # linkitems:
+      #   - link: /assets/pdf/degree/PhDExpEng.pdf
+      #     linkname: 'Diploma'
+
+# --== EXPERIENCE ==--
 - title: Experience
   type: time_table
   contents:
-    - title: Scripting Team Leader
-      institution: AvatarMC
-      year: June 17' - June 22'
-      description:
-        - Developed QA test plans for new features/content.
-        - Wrote and maintained documentation of custom scripting language.
-        - Developed command-line & GUI-based automation tools to assist workflows of other teams.
-        - title: "Performed various management related tasks:"
-          contents:
-            - Wrote design plans for deliverable request/feature improvement tasks.
-            - Led teams/projects using professional management software (Phabricator).
-            - Led project meetings and efficiently delegated tasks to team members.
-    - title: MIT Summer Research Intern
+    - title: Research Assistant
+      year: Dec 2023 - Present
+      location: Orlando, FL
+      institution: University of Central Florida
+      department: College of Medicine
+      # description:
+      #   - Contributed to large scale single-cell multiomics datamining project
+      #   - title: "Received training in fundamental lab techniques:"
+      #     contents:
+      #       - <i>Mouse Model Genotyping</i>
+
+    - title: MIT Summer Research Program
+      year: Jun 2023 - Present
+      location: Cambridge, MA
       institution: Massachusetts Institute of Technology
-      year: Jun 23' - Present
+      department: Department of Chemical Engineering
       description:
-        - "Project: \"Generating a Stable Cell Line: Troubleshooting Restriction Cloning of a CRISPR Vector For Sequential Genome Insertion\""
-        - Received training in fundamental lab techniques (cell culture, flow cytometry.
         - Refactored bioinformatics pipeline for analysis of B-Cell VH:VL data collected through NGS.
+        - Developed automated data visualization tools capable of handling high-throughput immunoglobulin sequences.
         - Improved scientific communication skills and ability to present data/progress during lab meetings.
+        - title: "Received training in fundamental lab techniques:"
+          contents:
+            - <i>Cell Culture, Flow Cytometry, Restriction Cloning, PCR</i>
+
+    - title: Research Assistant
+      year: Dec 2019
+      location: Lagos, Nigeria
+      institution: Florida State University
+      department: Department of Urban & Regional Planning
+      description:
+        - Assisted with data collection for 
+
+    - title: Scripting Team Leader
+      year: 2017 - 2022
+      department: AvatarMC
+      description:
+        - Developed QA test plans for experimental features.
+        - Wrote and maintained documentation of in-house scripting language.
+        - Developed both command-line & GUI-based automation tools to assist workflows of other teams.
+        - Wrote design documents for deliverable requests/feature improvement tasks.
+        - Led projects using professional management software (Phabricator).
+        - Directed team meetings and effectively delegated tasks.
 
 
-# - title: Academic Interests
-#   type: nested_list
+# --== PRESENTATIONS ==--
+# - Research Conferences
+# - Invited Panels/Community Presentations
+- title: Presentations
+  type: time_table
+  contents:
+    - title: Annual Biomedical Research Conference For Minoritized Scientists (ABRCMS)
+      year: Nov 2023
+      location: Phoenix, AZ
+      department: American Society for Microbiology
+      maindescription:
+        '<i>"Generating a Stable Cell Line: Troubleshooting Restriction Cloning of a CRISPR Vector For Sequential Genome Insertion</i>'
+
+    - title: ByteCamp
+      year: Nov 2023
+      location: Orlando, FL
+      department: ByteCraft Enterprise
+      maindescription:
+        'Success to Your Undergraduate Journey Panel'
+
+    - title: Summer Off-Campus Research Panel
+      year: Oct 2023
+      location: Orlando, FL
+      institution: University of Central Florida
+      department: Academic Advancement Programs (AAP)
+      # maindescription:
+      #   'Investigating Diversity of V(D)J Gene Recombinants Within Antibody Repertoires
+      #   <br><br>
+      #   In this project, the...
+      #   <br>'
+
+# --== HONORS, AWARDS & SCHOLARSHIPS ==--
+# Might want to consider different entry type (list or nested_list?)
+- title: Honors, Awards & Scholarships
+  type: time_table
+  contents:
+  - year: 2023
+    items:
+    - McNair Summer Research Institute (MSRI) Scholarship
+    - UCF Office of Undergraduate Research Travel Scholarship
+  - year: # Miscellaneous
+    description:
+    - Florida Bright Futures Academic Scholars (FAS)
+    - President's List (3 Times)
+    - Dean's List (2 Times)
+
+# --== COMMUNITY INVOLVEMENT ==--
+- title: Community Involvement # Campus Involvement, Volunteer Experience
+  type: time_table
+  contents:
+  - title: UCF Active Minds Club
+    year: Dec 2023 - Present
+    department: Secretary
+    # maindescription:
+    #   'aaa s'
+
+  - title: UCF Grad Fair
+    year: September 2023
+    institution: University of Central Florida
+    department: College of Graduate Studies
+
+  - title: UCF Relay For Life
+    year: March 2023
+
+  - title: Down Syndrome Foundation
+    year:  February 2023
+
+# --== CERTIFICATIONS ==--
+- title: Certifications
+  type: list_groups
+  contents:
+  - category: Occupational Health and Safety
+    icon: fas fa-shield-heart
+    items:
+    - name: CITI Training
+      level: Biomedical Responsible Conduct of Research
+      # school: UCF
+      # time: 50 Hrs
+      # link: /assets/pdf/certificates/PRL/PRL_Nanomateriales.pdf
+      # linkname: CERT
+
+# --== OTHER KNOWLEDGE AND SKILLS ==--
+- title: Other Knowledge and Skills # Levels: Elementary < Intermediate < Advanced < Professional
+  type: list_groups
+  contents:
+    - category: Programing languages
+      icon: fas fa-code
+      items:
+        - name: C++
+          level: Advanced level.
+        - name: Java
+          level: Intermediate level.
+        - name: Python
+          level: Professional level.
+        - name: Bash/Shell
+          level: Advanced level.
+        - name: R
+          level: Elementary level.
+        - name: RegEx
+          level: Elementary level.
+
+    - category: Software
+      icon: fas fa-window-maximize
+      items:
+        - name: Git
+          level: Advanced level.
+        - name: PyCharm
+          level: Intermediate level.
+        - name: Docker
+          level: Elementary level.
+        - name: Jupyter Notebook
+          level: Advanced level.
+        - name: CLion
+          level: Intermediate level.
+        - name: PyMol
+          level: Elementary level.
+        - name: Excel
+          level: Intermediate level.
+
+    - category: Document composition
+      icon: fas fa-book
+      items:
+        - name: LaTeX
+          level: Advanced level.
+        - name: Word
+          level: Intermediate/advanced level.
+        - name: Power Point
+          level: Advanced level.
+
+    # https://mangolanguages.com/resources-articles/levels-of-learning-a-language/
+    - category: Natural Languages
+      icon: fas fa-comment
+      items:
+        - name: English
+          level: C2 level.
+        # - name: Spanish
+        #   level: A1 level.
+        # - name: Yoruba
+        #   level: A1 level.
+        # - name: Latin
+        #   level: A1 level.
+
+    - category: Microcontroller development
+      icon: fas fa-microchip
+      items:
+        - name: Arduino
+          level: Intermediate level.
+
+    - category: Operating systems
+      icon: fas fa-desktop
+      items:
+        - name: Windows
+          level: Advanced level.
+        - name: Linux/UNIX
+          level: Advanced level.
+        - name: Android
+          level: Intermediate level.
+
+# --== ACADEMIC INTERESTS ==--
+- title: Academic Interests
+  type: nested_list
+  contents:
+    - title: Computational Biology
+      items:
+        - Structural Biology
+        - Systems Biology/Immunology
+    - title: Molecular Biotechnology
+      items:
+        - High-Throughput Techniques
+        - Immune Engineering
+        - Adoptive Cell Therapies
+
+
+
+
+# - title: Test List
+#   type: list
 #   contents:
-#     - title: Topic 1.
-#       items: 
-#         - Description 1.
-#         - Description 2.
-#     - title: Topic 2.
-#       items:
-#         - Description 1.
-#         - Description 2.
+#     - <u>List Entry 1:</u> <br>Thing A, Hobby B, etc.
+#     - <u>List Entry 2:</u> <br>Hobby A, Hobby B, etc.
+#     - <u>List Entry 3:</u> <br>Hobby A, Hobby B, etc.
+
 

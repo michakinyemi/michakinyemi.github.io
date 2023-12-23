@@ -16,6 +16,8 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
+<br>
+
 Hello there, I'm Michael, a rising senior at the University of Central Florida studying Biotechnology and Computer Science.
 
 I believe that researchers with an in-depth knowledge of both fields will be crucial as more and more advancements are made in both computational power and molecular technologies.
@@ -25,6 +27,16 @@ After losing a loved one to an autoimmune disorder, I've become determined to co
 I'm a proud McNair Scholar and, having faced much discrimination in my own academic career, I want to advocate for other underrepresented students who have been told that "they don't belong."
 
 In my free time I enjoy game development, biking, and exploring natural landscapes :)
+
+
+
+<br><br>
+
+
+
+
+
+
 
 <hr>
 

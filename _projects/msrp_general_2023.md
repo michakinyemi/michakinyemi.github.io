@@ -2,7 +2,7 @@
 layout: page
 title: MIT Summer Research Program
 description: "My experience with the MSRP General 2023 program"
-img: assets/img/12.jpg
+img: assets/img/msrp_2023/logo.jpg
 importance: 1
 category: research
 ---
@@ -15,6 +15,7 @@ This was my very first research experience
 ### The DeKosky Lab
 <hr>
 
+Fun times :)
 
 
 ### My Project
