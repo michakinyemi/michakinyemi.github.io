@@ -1,6 +1,6 @@
 # Personal Website
 
-'sudo bundle install'
+`sudo bundle install`
 - Generate new `Gemfile.lock`
 
 

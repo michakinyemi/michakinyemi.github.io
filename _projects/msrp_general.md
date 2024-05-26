@@ -15,7 +15,5 @@ This was my very first research experience
 
 
 
-### My Project
-<hr>
 
 
