@@ -14,7 +14,11 @@ footer_text: >
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 keywords: # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
+<<<<<<< HEAD
 icon: 🔬 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+=======
+icon: 🔬  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+>>>>>>> 059e0f7 (Updating project entries)
 
 url: https://michakinyemi.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
@@ -586,3 +590,7 @@ third_party_libraries:
 #   - languages
 #   - interests
 #   - references
+<<<<<<< HEAD
+=======
+
+>>>>>>> 059e0f7 (Updating project entries)
