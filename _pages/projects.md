@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: Here you can find a collection of my past research opportunities and a few of my personal projects. 
+description: Here you can find a collection of my past research opportunities and a few of my personal projects.
 nav: true
 nav_order: 3
 display_categories: [research]

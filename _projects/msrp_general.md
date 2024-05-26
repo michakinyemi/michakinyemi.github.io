@@ -8,12 +8,6 @@ category: research
 ---
 
 I was accepted to the MIT Summer Research Program (MSRP General) for the summer of 2023.
-This was my very first research experience 
+This was my very first research experience
 
 <br>
-
-
-
-
-
-

@@ -10,10 +10,10 @@ profile:
   image_circular: true # crops the image to make it circular
   more_info: # Ex: address (separate with <p>text<p>)
 
-news: false  # includes a list of news items
-latest_posts: false  # includes a list of the newest posts
+news: false # includes a list of news items
+latest_posts: false # includes a list of the newest posts
 selected_papers: false # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+social: true # includes social icons at the bottom of the page
 ---
 
 <br>
@@ -28,8 +28,6 @@ I'm a proud McNair Scholar and, having faced much discrimination in my own acade
 
 In my free time I enjoy game development, biking, and exploring natural landscapes :)
 
-
 <br><br>
-
 
 <hr>

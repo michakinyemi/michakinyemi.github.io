@@ -1,6 +1,4 @@
-
 # https://github.com/alshedivat/al-folio/pull/1339
-
 
 # Style Guidelines:
 # - Order from most recent -> oldest
@@ -77,7 +75,7 @@
       institution: Florida State University
       department: Department of Urban & Regional Planning
       description:
-        - Assisted with data collection for 
+        - Assisted with data collection for
 
     - title: Scripting Team Leader
       year: 2017 - 2022
@@ -90,7 +88,6 @@
         - Led projects using professional management software (Phabricator).
         - Directed team meetings and effectively delegated tasks.
 
-
 # --== PRESENTATIONS ==--
 # - Research Conferences
 # - Invited Panels/Community Presentations
@@ -101,15 +98,13 @@
       year: Nov 2023
       location: Phoenix, AZ
       department: American Society for Microbiology
-      maindescription:
-        '<i>"Generating a Stable Cell Line: Troubleshooting Restriction Cloning of a CRISPR Vector For Sequential Genome Insertion</i>'
+      maindescription: '<i>"Generating a Stable Cell Line: Troubleshooting Restriction Cloning of a CRISPR Vector For Sequential Genome Insertion</i>'
 
     - title: ByteCamp
       year: Nov 2023
       location: Orlando, FL
       department: ByteCraft Enterprise
-      maindescription:
-        'Success to Your Undergraduate Journey Panel'
+      maindescription: "Success to Your Undergraduate Journey Panel"
 
     - title: Summer Off-Campus Research Panel
       year: Oct 2023
@@ -127,50 +122,50 @@
 - title: Honors, Awards & Scholarships
   type: time_table
   contents:
-  - year: 2023
-    items:
-    - McNair Summer Research Institute (MSRI) Scholarship
-    - UCF Office of Undergraduate Research Travel Scholarship
-  - year: # Miscellaneous
-    description:
-    - Florida Bright Futures Academic Scholars (FAS)
-    - President's List (3 Times)
-    - Dean's List (2 Times)
+    - year: 2023
+      items:
+        - McNair Summer Research Institute (MSRI) Scholarship
+        - UCF Office of Undergraduate Research Travel Scholarship
+    - year: # Miscellaneous
+      description:
+        - Florida Bright Futures Academic Scholars (FAS)
+        - President's List (3 Times)
+        - Dean's List (2 Times)
 
 # --== COMMUNITY INVOLVEMENT ==--
 - title: Community Involvement # Campus Involvement, Volunteer Experience
   type: time_table
   contents:
-  - title: UCF Active Minds Club
-    year: Dec 2023 - Present
-    department: Secretary
-    # maindescription:
-    #   'aaa s'
+    - title: UCF Active Minds Club
+      year: Dec 2023 - Present
+      department: Secretary
+      # maindescription:
+      #   'aaa s'
 
-  - title: UCF Grad Fair
-    year: September 2023
-    institution: University of Central Florida
-    department: College of Graduate Studies
+    - title: UCF Grad Fair
+      year: September 2023
+      institution: University of Central Florida
+      department: College of Graduate Studies
 
-  - title: UCF Relay For Life
-    year: March 2023
+    - title: UCF Relay For Life
+      year: March 2023
 
-  - title: Down Syndrome Foundation
-    year:  February 2023
+    - title: Down Syndrome Foundation
+      year: February 2023
 
 # --== CERTIFICATIONS ==--
 - title: Certifications
   type: list_groups
   contents:
-  - category: Occupational Health and Safety
-    icon: fas fa-shield-heart
-    items:
-    - name: CITI Training
-      level: Biomedical Responsible Conduct of Research
-      # school: UCF
-      # time: 50 Hrs
-      # link: /assets/pdf/certificates/PRL/PRL_Nanomateriales.pdf
-      # linkname: CERT
+    - category: Occupational Health and Safety
+      icon: fas fa-shield-heart
+      items:
+        - name: CITI Training
+          level: Biomedical Responsible Conduct of Research
+          # school: UCF
+          # time: 50 Hrs
+          # link: /assets/pdf/certificates/PRL/PRL_Nanomateriales.pdf
+          # linkname: CERT
 
 # --== OTHER KNOWLEDGE AND SKILLS ==--
 - title: Other Knowledge and Skills # Levels: Elementary < Intermediate < Advanced < Professional
@@ -262,15 +257,10 @@
         - High-Throughput Techniques
         - Immune Engineering
         - Adoptive Cell Therapies
-
-
-
-
 # - title: Test List
 #   type: list
 #   contents:
 #     - <u>List Entry 1:</u> <br>Thing A, Hobby B, etc.
 #     - <u>List Entry 2:</u> <br>Hobby A, Hobby B, etc.
 #     - <u>List Entry 3:</u> <br>Hobby A, Hobby B, etc.
-
 
