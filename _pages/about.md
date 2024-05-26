@@ -22,21 +22,14 @@ Hello there, I'm Michael, a rising senior at the University of Central Florida s
 
 I believe that researchers with an in-depth knowledge of both fields will be crucial as more and more advancements are made in both computational power and molecular technologies.
 
-After losing a loved one to an autoimmune disorder, I've become determined to contribute to the global efforts of equipping researchers with the necessary tools to combat any disease they encounter. My [past research](/projects/msrp_general_2023/) involves generating an optimized cell line to assist researchers in studying potential antibodies for vaccine development.
+After losing a loved one to an autoimmune disorder, I've become determined to contribute to the global efforts of equipping researchers with the necessary tools to combat any disease they encounter. My [past research](/projects/) involves generating an optimized cell line to assist researchers in studying potential antibodies for vaccine development.
 
 I'm a proud McNair Scholar and, having faced much discrimination in my own academic career, I want to advocate for other underrepresented students who have been told that "they don't belong."
 
 In my free time I enjoy game development, biking, and exploring natural landscapes :)
 
 
-
 <br><br>
 
 
-
-
-
-
-
 <hr>
-
