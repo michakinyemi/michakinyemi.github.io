@@ -1,25 +1,15 @@
 {
   "basics": {
     "name": "Michael Akinyemi",
-    "label": "Scientist",
-    "image": "",
+    "label": "Computational Biologist",
     "email": "mi542876@ucf.edu",
     "phone": "(912) 123-4567",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
+      "city": "Orlando",
       "countryCode": "US",
-      "region": "California"
+      "region": "Florida"
     },
-    "profiles": [
-      {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
-      }
-    ]
+    "profiles": []
   },
   "work": [
     {
