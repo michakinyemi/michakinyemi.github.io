@@ -9,7 +9,11 @@ description: Here you can find a collection of my past research opportunities an
 >>>>>>> 059e0f7 (Updating project entries)
 nav: true
 nav_order: 3
+<<<<<<< HEAD
 display_categories: [research, education]
+=======
+display_categories: [research,education]
+>>>>>>> 5577185 (Adding personal notes)
 horizontal: false
 ---
 
