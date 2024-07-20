@@ -10,10 +10,14 @@ description: Here you can find a collection of my past research opportunities an
 nav: true
 nav_order: 3
 <<<<<<< HEAD
+<<<<<<< HEAD
 display_categories: [research, education]
 =======
 display_categories: [research,education]
 >>>>>>> 5577185 (Adding personal notes)
+=======
+display_categories: [research, education]
+>>>>>>> 7fda911 (Modifying notes page and polaroid pic test)
 horizontal: false
 ---
 
