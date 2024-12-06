@@ -7,10 +7,7 @@ importance: 2
 category: research
 ---
 
-<<<<<<< HEAD
-=======
-
-
+<!-- 
 >>>>>>> 059e0f7 (Updating project entries)
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -20,8 +17,4 @@ category: research
 <div class="caption">
     Final research poster for project. Downloadable PDF version can be found <a href="https://drive.google.com/file/d/1_4deKldkGNPtzZWoudZypkzJJf71Shvd/view?usp=sharing">here.</a>
 </div>
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 059e0f7 (Updating project entries)
+-->

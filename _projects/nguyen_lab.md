@@ -6,11 +6,3 @@ img: assets/img/nguyen_lab/bsbs_building.jpg
 importance: 2
 category: research
 ---
-<<<<<<< HEAD
-=======
-
-
-
-
-
->>>>>>> 059e0f7 (Updating project entries)
