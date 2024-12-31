@@ -4,5 +4,5 @@
 
 - Generate new `Gemfile.lock`
 
-`docker compose pull`
-`docker compose up --build`
+`docker-compose pull`
+`docker-compose up --build`
