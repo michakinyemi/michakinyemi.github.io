@@ -20,14 +20,12 @@ This is a simple image slider. It uses the [Swiper](https://swiperjs.com/) libra
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
->>>>>>> 7fda911 (Modifying notes page and polaroid pic test)
-<swiper-container keyboard="true" height="90" navigation="true" pagination="true" pagination-clickable="true" pagination-dynamic-bullets="true" rewind="true">
-  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/dekosky_lab/polaroids/1.jpg" class="rounded z-depth-1" %}</swiper-slide>
-  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/dekosky_lab/polaroids/2.jpg" class="rounded z-depth-1" %}</swiper-slide>
-  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/dekosky_lab/polaroids/3.jpg" class="rounded z-depth-1" %}</swiper-slide>
-  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/dekosky_lab/polaroids/4.jpg" class="img-fluid rounded z-depth-1" %}</swiper-slide>
-<<<<<<< HEAD
-=======
+
+> > > > > > > 7fda911 (Modifying notes page and polaroid pic test)
+> > > > > > > <swiper-container keyboard="true" height="90" navigation="true" pagination="true" pagination-clickable="true" pagination-dynamic-bullets="true" rewind="true"> > > > > > > > <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/dekosky_lab/polaroids/1.jpg" class="rounded z-depth-1" %}</swiper-slide> > > > > > > > <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/dekosky_lab/polaroids/2.jpg" class="rounded z-depth-1" %}</swiper-slide> > > > > > > > <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/dekosky_lab/polaroids/3.jpg" class="rounded z-depth-1" %}</swiper-slide> > > > > > > > <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/dekosky_lab/polaroids/4.jpg" class="img-fluid rounded z-depth-1" %}</swiper-slide>
+
+# <<<<<<< HEAD
+
 <swiper-container keyboard="true" navigation="true" pagination="true" pagination-clickable="true" pagination-dynamic-bullets="true" rewind="true">
   <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/dekosky_lab/polaroids/20230806_132333.jpg" class="img-fluid rounded z-depth-1" %}</swiper-slide>
   <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/dekosky_lab/polaroids/20230806_132353.jpg" class="img-fluid rounded z-depth-1" %}</swiper-slide>
@@ -50,7 +48,6 @@ This is a simple image comparison slider. It uses the [img-comparison-slider](ht
   {% include figure.liquid path="assets/img/prof_pic.jpg" class="img-fluid rounded z-depth-1" slot="second" %}
 </img-comparison-slider>
 
-
->>>>>>> 5577185 (Adding personal notes)
-=======
->>>>>>> 7fda911 (Modifying notes page and polaroid pic test)
+> > > > > > > # 5577185 (Adding personal notes)
+> > > > > > >
+> > > > > > > 7fda911 (Modifying notes page and polaroid pic test)

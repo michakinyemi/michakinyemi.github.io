@@ -6,4 +6,3 @@ img: assets/img/dekosky_lab/ragon_building.jpg
 importance: 2
 category: research
 ---
-

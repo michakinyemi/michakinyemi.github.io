@@ -8,10 +8,7 @@ importance: 3
 category: education
 ---
 
-
 - [ ] Obsidian
 - [ ] Interdisciplinary Learning Approach
 
-
 [See the notes](https://notes.michaelakinyemi.com)
-

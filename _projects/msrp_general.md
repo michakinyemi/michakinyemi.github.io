@@ -1,6 +1,6 @@
 ---
 layout: page
-title: MIT Summer Research Program (Updating project entries)
+title: MIT Summer Research Program
 description: "My experience with the MSRP General 2023 & 2024 programs"
 img: assets/img/msrp_general/logo.jpg
 importance: 1
