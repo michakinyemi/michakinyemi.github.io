@@ -1,12 +1,12 @@
 ---
-layout: cv
-permalink: /cv/
+layout: page
 title: cv
+description: ""
 nav: true
 nav_order: 2
-# redirect: /assets/pdf/main_cv.pdf
-cv_pdf: Main_CV.pdf
-# description: This is a description of the page. You can modify it in 'pages/_cv.md'. You can also change or remove the top pdf download button.
-toc:
-  sidebar: left
 ---
+
+
+<embed src="/assets/pdf/Main_CV.pdf" width="100%" height="1200" 
+ type="application/pdf">
+
