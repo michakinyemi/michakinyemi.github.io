@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: page
 title: Academic Outreach
 description: "A deep dive into the interdisciplinary knowledge I've gained over the years."
@@ -11,4 +11,4 @@ category: education
 - [ ] Obsidian
 - [ ] Interdisciplinary Learning Approach
 
-[See the notes](https://notes.michaelakinyemi.com)
+[See the notes](https://notes.michaelakinyemi.com) -->

@@ -26,14 +26,9 @@ After losing a loved one to an autoimmune disorder, I've become determined to co
 
 I'm a proud McNair Scholar and, having faced much discrimination in my own academic career, I want to advocate for other underrepresented students who have been told that "they don't belong."
 
-In my free time I enjoy game development, biking, and exploring natural landscapes :)
-
-I had the opportunity to integrate both in the [DeKosky Lab](/projects/dekosky_lab/) at MIT, where I improved their immune receptor sequencing platform by working to generate a cell line optimized for higher-efficiency library uptake, decreased the runtime of supercomputer analysis pipelines by >80%, and designed probabilistic models to detect sequencing errors. At my home institution, I independently developed a suite of scRNA-Seq analysis tools and investigated approaches to integrating multimodal datasets under the [Nguyen Lab](/projects/nguyen_lab/).
-
 You’ll often see me biking and playing/developing video games. For de-stressing, I love to sit down and play with my two adorable guinea pigs.
 
 <br><br>
 
-<br><br>
 
 <hr>
