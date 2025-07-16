@@ -6,3 +6,12 @@
 
 `docker-compose pull`
 `docker-compose up --build`
+
+
+---
+
+
+`docker build .`
+
+
+

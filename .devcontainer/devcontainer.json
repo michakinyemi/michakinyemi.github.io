@@ -9,7 +9,10 @@
     "ghcr.io/rocker-org/devcontainer-features/apt-packages:1": {
       "packages": "build-essential,imagemagick,inotify-tools,jupyter-nbconvert,procps,ruby-full,zlib1g-dev"
     },
-    "ghcr.io/devcontainers-contrib/features/prettier:1": {}
+    "ghcr.io/devcontainers-community/npm-features/prettier:1": {}
+    // "ghcr.io/prulloac/devcontainer-features/latex:1": {
+    //   "packages": "extsizes,inputenc,geometry,enumitem,titlesec,hyperref,tabularx,fancyhdr,fontawesome5,hyphenat,multicol,blindtext"
+    // }
   },
 
   // Optionally: run jekyll serve automatically on container entering using the Docker entrypoint
@@ -17,7 +20,7 @@
 
   "customizations": {
     "vscode": {
-      "extensions": ["esbenp.prettier-vscode", "sissel.shopify-liquid", "yzhang.markdown-all-in-one"],
+      "extensions": ["esbenp.prettier-vscode", "sissel.shopify-liquid", "yzhang.markdown-all-in-one", "james-yu.latex-workshop"],
       "settings": {
         // use prettier code formatter as default formatter
         "editor.defaultFormatter": "esbenp.prettier-vscode",

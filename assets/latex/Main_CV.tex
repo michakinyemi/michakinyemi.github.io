@@ -1,0 +1,355 @@
+% Original Template: https://www.overleaf.com/latex/templates/phd-application-cv-template/mrvjhycbdytr
+
+% Document class and font size
+\documentclass[a4paper,9pt]{extarticle}
+
+% Packages
+\usepackage[utf8]{inputenc} % For input encoding
+\usepackage{geometry} % For page margins
+\geometry{letterpaper, margin=0.75in} % Set paper size and margins
+\usepackage{titlesec} % For section title formatting
+\usepackage{enumitem} % For itemized list formatting
+\usepackage[hidelinks]{hyperref} % For hyperlinks
+\usepackage{tabularx}
+\usepackage{fancyhdr}
+\usepackage{fontawesome5}
+\usepackage[none]{hyphenat}
+\usepackage{multicol}
+\usepackage{blindtext}
+
+% --== Formatting Templates ==--
+\titleformat{\section}{\centering\large\bfseries}{\thesection}{1em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{\baselineskip}{\baselineskip}
+\setlist{noitemsep, nolistsep, rightmargin=1in}
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\PresentationItem}[5]{
+\noindent\textbf{#1} \hfill \raisebox{\dimexpr-\ht\strutbox+\dp\strutbox\relax}[0pt][0pt]{#2} \\
+\underline{#3}
+\indent \begin{minipage}{0.6\textwidth} 
+\textit{#4} \end{minipage} \hfill #5
+\bigskip}
+
+\newcommand{\PresentationItemSmall}[5]{
+\noindent\textbf{#1} \hfill #2 \\ 
+\underline{#3} 
+\indent \textit{#4} \hfill #5
+\bigskip}
+
+% For "Knowledge & Skills" lists
+\newcommand{\spacedIcon}[1]{\faIcon{#1}\hspace{0.3em}}
+\newcommand{\SimpleItem}[2]{ \item[] \noindent\hbox to 0.175\textwidth{{#1}} #2}
+
+% ==================================================================
+
+% Begin document
+\begin{document}
+\pagestyle{fancy} % Disable page numbers
+\renewcommand{\headrulewidth}{0pt}
+\fancyhead{}
+\fancyhead[L]{\textit{Michael J. Akinyemi}}
+\fancyhead[R]{\textit{June 2025}}
+\thispagestyle{empty} % Remove header from the first page
+
+
+% --== NAME & CONTACT INFO ==--
+\begin{center}
+\textbf{\Huge Michael J. Akinyemi}\\[6pt]
+ \textbf{Phone:} \href{tel:8505531127}{(850) 850-1127} | \textbf{Website:} \href{https://michaelakinyemi.com/}{michaelakinyemi.com} | \textbf{Email:} \href{mailto:mi542876@ucf.edu}{mi542876@ucf.edu}
+\end{center}
+
+
+% --== RESEARCH INTERESTS ==--
+\section*{RESEARCH INTERESTS}
+\begin{center}
+Computational Biology, Immune Engineering, Systems Biology/Immunology, Molecular Biophysics, Autoimmune Disorders, Probabilistic Algorithms, Biostatistics
+\end{center}
+
+
+% --== EDUCATION ==--
+\section*{EDUCATION}
+
+\noindent\textbf{University of Central Florida} \hfill Orlando, FL \\
+Biomedical Sciences (B.S.) \hfill Spring 2025 \\
+Computer Science (Minor) \\
+Genomics \& Bioinformatics (Minor)
+\begin{itemize}
+    \item Ronald E. McNair Scholar
+    \item Relevant Coursework:
+    \begin{itemize}
+        \item \textit{CS: Discrete Structures I, Computer Science II, Computer Logic \& Organization, Object Oriented Programming, Matrix \& Linear Algebra}
+        \item \textit{Bio: Immunology, General Microbiology, Biochemistry I, Molecular Biology II, Quantitative Biological Methods}
+    \end{itemize}
+\end{itemize}
+\bigskip
+
+\noindent\textbf{Tallahassee Community College} \hfill Tallahassee, FL \\
+Associate of Arts (A.A.) \hfill Summer 2022
+\begin{itemize}
+    \item Phi Theta Kappa Honors Society
+\end{itemize}
+
+
+% --== RESEARCH EXPERIENCE ==--
+\section*{RESEARCH EXPERIENCE}
+\noindent\textbf{University of Central Florida} \hfill Orlando, FL\\ 
+\textbf{College of Medicine} \hfill December 2023 | Present \\ 
+\textbf{Advisor:} Dr. Hung Nguyen \\
+\textbf{Research Assistant}
+\begin{itemize}
+    \item Independently developed a new immune cell datamining pipeline to analyze PBMC scRNA-Seq datasets to discover correlations between metabolic activity and the grafts vs leukemia (GvL) effect.
+    \item Investigated correlation between the gut microbiome and immune cell behavior using machine learning models to integrate 16S rRNA-Seq \& various single-cell assays.
+\end{itemize} 
+\bigskip
+
+\noindent\textbf{Massachusetts Institute of Technology} \hfill Cambridge, MA\\
+\textbf{Department of Chemical Engineering} \hfill June 2023 | Present \\
+\textbf{Advisor:} Dr. Brandon DeKosky \\
+\textbf{Research Intern} $\vert$ MIT Summer Research Program \\
+\textit{\underline{Sequential Insertion Project} (Summer 2023)}
+\vspace{2mm}
+\begin{itemize}
+    \item Contributed to a project improving the efficiency of cell line generation for antibody library display systems by reducing the length of the donor plasmid.
+    \item Successfully performed troubleshooting of restriction cloning experiments to construct donor plasmid for CRISPR/Cas9-mediated genome integration.
+    \item Developed a suite of automated data visualization tools capable of handling high-throughput sequence data.
+    \item Optimized clustering algorithms within bioinformatics pipelines to analyze BCR/TCR immune repertoire data collected through NGS, resulting in a >70\% faster runtime.
+    \item Developed a novel tool using \textbf{Hidden Markov Models (HMMs)} and probabilistic approaches to correct errors in next-generation sequencing (NGS) of antibody libraries.
+\end{itemize}
+
+\vspace{2mm}
+\noindent\textit{\underline{Bioinformatics \& HPC Algorithm Optimization }}
+\vspace{2mm}
+\begin{itemize}
+    \item Contributed to a project improving the efficiency of cell line generation for antibody library display systems.
+    \item Successfully troubleshot restriction cloning experiments for construction of donor plasmid for CRISPR/Cas9 system.
+    \item Optimized clustering algorithms within bioinformatics pipelines to analyze BCR/TCR immune repertoire data collected through NGS.
+    \item Developed automated data visualization tools capable of handling high-throughput sequence data.
+\end{itemize}
+
+
+% --== HONORS, AWARDS & SCHOLARSHIPS ==--
+\section*{HONORS, AWARDS \& SCHOLARSHIPS}
+
+\noindent\textbf{McNair Summer Research Institute Scholarship}  \hfill Orlando, FL\\ 
+\textit{Ronald E. McNair Scholars Program} \hfill {August 2023} \medskip
+
+\noindent\textbf{Conference Presentation Travel Award}  \hfill Orlando, FL\\ 
+\textit{UCF Office of Undergraduate Research} \hfill {November 2023} \medskip
+
+\noindent\textbf{Florida Bright Futures Academic Scholars}  \hfill Tallahassee, FL\\
+\textit{Florida Department of Education} \hfill {December 2020} \medskip
+
+\noindent\textbf{President's List (3 Times)} \medskip
+
+\noindent\textbf{Dean's List (2 Times)}
+
+
+
+
+% % --== PUBLICATIONS ==--
+\section*{PUBLICATIONS}
+
+\noindent \textbf{Akinyemi, M.}, \& DeKosky, B. (1979). \textbf{Probabilistic Approaches to Correct Antibody Library Sequence Errors} Econometrica, 47(2), 263-291. (Published)
+
+
+% --== PRESENTATIONS ==--
+\section*{PRESENTATIONS}
+
+\PresentationItemSmall{Leadership Alliance National Symposium}{Hartford, CT}{Oral}{Probabilistic Approaches to Correct Antibody Library Sequence Errors}{July 2024}
+
+\PresentationItem{UCF Student Scholar Symposium}{Orlando, FL}{Poster}{Overcoming Challenges in CRISPR Vector Restriction Cloning to Optimize Generation of Immune Repertoires.}{March 2024}
+
+\PresentationItem{Annual Biomedical Research Conference For Minoritized Scientists (ABRCMS)}{Phoenix, AZ}{Poster}{Generating a Stable Cell Line: Troubleshooting Restriction Cloning of a CRISPR Vector For Sequential Genome Insertion.}{November 2023}
+
+\PresentationItem{MIT Summer Research Program Fall Extension Research Showcase}{Virtual}{Poster}{Investigating Diversity of V(D)J Gene Recombinants Within Antibody Repertoires}{November 2023}
+
+\PresentationItem{MIT Summer Research Program Showcase}{Cambridge, MA}{Poster}{Generating a Stable Cell Line: Troubleshooting Restriction Cloning of a CRISPR Vector For Sequential Genome Insertion.}{July 2023}
+
+% \PresentationItemSmall{Harvard Medical School Institute for Protein Innovation (IPI)}{Cambridge, MA}{Attendee}{IPI "Surfacing" Symposium on Cell Surface Receptor Biology and Protein Science}{June 2023}
+
+
+
+
+
+
+% --== OTHER EXPERIENCES ==--
+\section*{OTHER EXPERIENCES}
+
+% \noindent\textbf{Data Science \& Machine Learning Summer Online Program} \hfill Cambridge, MA \\
+% Massachusetts Institute of Technology \hfill June 2024 - August 2024
+% \begin{itemize}
+%     \item Learned formal statistical methods 
+% \end{itemize}
+% \bigskip
+
+\noindent\textbf{Quantitative Methods Workshop} \hfill Cambridge, MA \\
+Massachusetts Institute of Technology \hfill January 2023
+\begin{itemize}
+    \item Employed principal component analysis (PCA) and k-means clustering to differentiate cells of a scRNA-Seq PBMC data set.
+    \item Used machine learning pipelines (CryoSPARC) to generate 3D protein structures from high-framerate movies of CryoEM data.
+\end{itemize}
+\bigskip
+
+% \noindent\textbf{Florida State University} \hfill Lagos, Nigeria\\ 
+% \textit{Department of Urban \& Regional Planning} \hfill December 2019
+% \begin{itemize}
+%     \item Assisted in data collection
+% \end{itemize}
+
+\noindent\textbf{Scripting Team Leader} \hfill Remote \\ 
+AvatarMC \hfill May 2017 | June 2022 
+\begin{itemize}
+    \item Developed both command-line \& GUI-based automation tools to assist workflows of other teams.
+    \item Designed quality assurance testing plans for experimental features.
+    \item Assisted in writing \& maintaining documentation of in-house scripting language.
+    \item Wrote design documents for deliverable requests/feature improvement tasks.
+    \item Led projects using professional management software (Phabricator).
+    \item Directed team meetings \& effectively delegated tasks.
+\end{itemize}
+
+
+
+\pagebreak
+
+% --== KNOWLEDGE & SKILLS ==--
+\section*{KNOWLEDGE \& SKILLS}
+
+
+\begin{center}\hspace{2em}
+\textbf{Biological Research} \\ \vspace{1.5ex}
+Restriction Cloning, Flow Cytometry, Electroporation, Polymerase Chain Reaction (PCR), Gel Electrophoresis, Agarose Gel Extraction, Immunoprecipitation, Cell Culture (Mammalian \& Bacterial), Murine Model Handling, Miniprep/Maxiprep
+\hspace{2em}
+\end{center}
+\bigskip
+
+\hspace{1.5em}
+\begin{tabularx}{1\textwidth}{
+    >{\raggedright\arraybackslash}X
+    >{\raggedright\arraybackslash}X }
+    % Row 1
+      \textbf{Programming Languages}&   \textbf{Software}\\ 
+     \begin{itemize}[leftmargin=.10in]
+         \SimpleItem{Python}{Professional.}
+         \SimpleItem{R}{Professional.}
+         \SimpleItem{C++}{Professional.}
+         \SimpleItem{Bash/Shell}{Advanced.}
+         \SimpleItem{Java}{Advanced.}
+         \SimpleItem{RegEx}{Intermediate.}
+     \end{itemize}
+     & \begin{itemize}[leftmargin=.10in]
+         \SimpleItem{LaTeX}{Professional}
+         \SimpleItem{Git}{Professional.}
+         \SimpleItem{Slurm}{Advanced.}
+         \SimpleItem{SnapGene}{Advanced.}
+         \SimpleItem{Docker}{Elementary.}
+         \SimpleItem{PyMol}{Elementary.}
+      \end{itemize}\\
+      
+    % Row 2
+      \textbf{Operating Systems}&   \textbf{Natural Languages}\\ 
+     \begin{itemize}[leftmargin=.10in]
+         \SimpleItem{Linux/UNIX}{Professional.}
+         \SimpleItem{HPC-Clusters}{Advanced.}
+      \end{itemize}
+     & \begin{itemize}[leftmargin=.10in]
+         \SimpleItem{English}{C2 level.}
+         \SimpleItem{Latin}{A2 level.}
+         \SimpleItem{Spanish}{A2 level.}
+         \SimpleItem{Yoruba}{A1 level.}
+      \end{itemize}\\
+
+\end{tabularx}
+
+
+
+
+% --== COMMUNITY INVOLVEMENT ==--
+\section*{COMMUNITY INVOLVEMENT}
+
+\noindent\textbf{Society for the Advancement of Chicanos/Hispanics and Native} \hfill Orlando, FL \\ 
+\noindent\textbf{Americans in Science (SACNAS)} $\vert$ \textit{Vice President} \hfill April 2024 | Present \\
+University of Central Florida
+\begin{itemize}
+    \item Assisted president in managing club and leading officer meetings.
+    \item Held general body meetings discussing tips/advice to help underrepresented students get started in research and the journey to graduate school. 
+\end{itemize}
+
+\bigskip
+
+\noindent\textbf{Active Minds} $\vert$ \textit{Secretary} \hfill Orlando, FL \\ 
+University of Central Florida \hfill December 2023 | Present
+\begin{itemize}
+    \item Advocated for mental health and the importance of fighting against the negative stigmas associated with them.
+    \item Organized club records, took meeting minutes \& performed general administrative duties. 
+\end{itemize}
+
+
+
+
+
+
+% \section*{REFERENCES}
+% % Shelbe, Brandon, Nguyen
+
+
+% \begin{tabularx}{1\textwidth}{
+%     >{\raggedright\arraybackslash}X
+%     >{\raggedright\arraybackslash}X }
+%     % Row 1
+%       \textbf{Shelbe Johnson} (Graduate Student) &   \textbf{Brandon DeKosky} (Associate Professor)\\ 
+%      \begin{itemize}[leftmargin=.10in]
+%          \SimpleItem{Python}{Professional.}
+%          \SimpleItem{Bash/Shell}{Advanced.}
+%      \end{itemize}
+%      & \begin{itemize}[leftmargin=.10in]
+%          \SimpleItem{LaTeX}{Professional}
+%          \SimpleItem{Git}{Advanced.}
+%       \end{itemize}\\
+      
+%     % Row 2
+%       \textbf{Operating Systems}&   \textbf{Natural Languages}\\ 
+%      \begin{itemize}[leftmargin=.10in]
+%          \SimpleItem{Linux/UNIX}{Professional.}
+%          \SimpleItem{HPC-Clusters}{Advanced.}
+%       \end{itemize}
+%      & \begin{itemize}[leftmargin=.10in]
+%          \SimpleItem{English}{C2 level.}
+%          \SimpleItem{Spanish}{A2 level.}
+%       \end{itemize}\\
+
+% \end{tabularx}
+
+
+% % --== VOLUNTEER EXPERIENCE ==--
+% \section*{VOLUNTEER INVOLVEMENT}
+
+% \noindent\textbf{Down Syndrome Foundation} \hfill Orlando, FL \\ 
+% \noindent\textbf{in Science (SACNAS) |} \textit{Vice President} \hfill April 2024 | Present \\
+% University of Central Florida
+% \begin{itemize}
+%     \item Assisted president in managing club and leading officer meetings.
+%     \item Held general body meetings discussing tips/advice to help underrepresented students get started in research and the journey to graduate school. 
+% \end{itemize}
+
+% \bigskip
+
+% \noindent\textbf{Active Minds |} \textit{Secretary} \hfill Orlando, FL \\ 
+% University of Central Florida \hfill December 2023 | Present
+% \begin{itemize}
+%     \item Advocated for mental health and the importance of fighting against the negative stigmas associated with them.
+%     \item Organized club records, took meeting minutes \& performed general administrative duties. 
+% \end{itemize}
+
+
+
+% End document
+\end{document}
+
+
+
+% TODO:
+% try to make the knowledge and skills section more compaect
+% add in progress publications
+% add more proof of skills
+% ask "do they need to see this information"
+% independent research section
